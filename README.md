@@ -1,4 +1,5 @@
-## Assessment: By the steps of Oregon Trail. [Use classes]
+## By the path of Oregon Trail. [Use classes assessment]
+link:  https://ev-ran.github.io/By-Oregon-Trail/
  
 ![-](./images/interface.png)
 
