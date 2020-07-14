@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id='main_container'>
+        <div id='travelers'>
+            <table id="table_travelers">
+
+                <tr>
+                    <th scope="column">&nbsp</th>
+                    <th scope="column">Name</th>
+                    <th scope="column">Food</th>
+                    <th scope="column">is Healsy</th>
+                    <th scope="column">in Wagon</th>
+                    <th scope="column">&nbsp</th>
+
+                </tr>
+
+            </table>
+
+
+        </div>
+
+        <div id=main_buttons>
+
+            <div id='buttons_for_travelers'>
+                <button id='huntB' class='travelerB butt'> Hunt!</button>
+                <button id='eatB' class='travelerB butt' > Eat!</button>
+                <button id='toWagonB' class='travelerB butt'> To Wagon --></button>
+
+            </div>
+
+        </div>
+
+        <div id="add_traveler">
+        
+            <div >
+
+                <label for="traveler" id='input_info'>Traveler Name: </label>
+                <input type="text" id="tr_name" class="input_f" name="traveler">
+                <button id="add_trav" class='butt'>Add traveler</button>
+            </div>
+
+            <div>
+
+                <label for="wagon_capacity" id='input_info'>Wagon capacity: </label>
+                <input type="number" id="w_capacity" class="input_f" name="wagon_capacity">
+                <button id="wag_capacity" class='butt'>Build Wagon</button>
+            </div>
+            <div>
+                <button id="resetB" class='butt res'>Reset</button>
+            </div>
+
+        </div>
+        <div id='pic'></div>
+        <div id='wagon_holder'>
+            <h1>Welcome to the Wagon!</h1>
+
+            <div id='wagon_div'>  </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="./Dog.js"></script>
+    <script src="./Traveler.js"></script>
+    <script src="./Wagon.js"></script>
+    <!-- <script src="./tests.js"></script> -->
+    <script src="./main.js"></script>
+</body>
+
+</html>
